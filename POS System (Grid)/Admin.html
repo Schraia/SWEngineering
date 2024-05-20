@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/76505b434d.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <title>Document</title>
 </head>
-<body class="bodyadmin">
+<body class="bodyadmin" onload="startTime()">
     <div class="container">
 
         <div class="navigation">
@@ -37,7 +39,7 @@
                 </a>
             </div>
             
-            <button type="button" class="logout" onclick="alert('Click OK to proceed installation of malware virus r90 version 7')">Log-out</button>
+            <button type="button" class="logout" onclick="">Log-out</button>
         </div>
 
         <div class="infocontainer">
@@ -97,7 +99,7 @@
                         <tr>
                         <td class="time">
                             <h3 class="toplefttitle">Time</h3><br>
-                            <div id="24hf" class="hrformat12"><span>0:00 A.M.</span></div>
+                            <div id="12hf" class="hrformat12"><span>0:00 A.M.</span></div>
                             <div id="24hf" class="hrformat24"><span>00:00 A.M.</span></div>
                             <div>
                                 
@@ -112,7 +114,8 @@
                         <td class="calen" style="height: 70%;">
                             <h3 class="calentitle">Calendar</h3>
                             <div class="calendarholder">
-                                <img class="calendar" src="Images/calenimg.png" onclick="alert('Coming Soon hehe')">
+                                <img class="calendar" src="Images/calimg.png">
+                            </div>
                             </div>
                         </td>
                     </table>
@@ -137,11 +140,14 @@
                         </td>
                         <td class="links">
                             <h3 class="toplefttitle">Links</h3>
-                            <a href="" class="outlinks0">Contact Developers</a><br>
-                            <a href="" class="outlinks01">Get Help</a><br>
-                            <a href="" class="outlinks1">Juls.com</a><br>
-                            <a href="" class="outlinks11">Juls Official Facebook</a><br>
-                            <a href="" class="outlinks12">Juls Management</a>
+                            <div class="linkcontents">
+                                <a href="">Contact Developers</a><br>
+                                <a href="">Get Help</a><br><br>
+                                <a href="">Juls.com</a><br>
+                                <a href="">Juls Official Facebook</a><br>
+                                <a href="">Juls Management</a>
+
+                            </div>
 
 
                         </td>
@@ -155,5 +161,9 @@
         </div>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script></body>
+
 </body>
 </html>
